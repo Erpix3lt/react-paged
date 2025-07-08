@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.useFlatConfig": true,
+    "eslint.run": "onSave",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "always",
+        "source.organizeImports": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit",
+    },
+    "sonarlint.connectedMode.project": {
+        "connectionId": "https-sonarqube1-lcm-deutschepost-de-",
+        "projectKey": "de.deutschepost.shark.erm.frontend"
+    },
+}

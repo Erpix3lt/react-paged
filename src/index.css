@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  background: black;
+}
+
+.pagedjs_page {
+  background: white;
+  margin: 1rem;
+  margin-left: 3rem;
+  @media (max-width: 600px) and (pointer: coarse) and (hover: none) {
+    margin: 0rem;
+    margin-bottom: .5rem;
+  }
+}
+
+p{
+  font-size: 11px;
+}
+
