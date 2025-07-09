@@ -2,6 +2,10 @@
 
 ![Preview](preview.png)
 
+## Install & Run
+- `npm install`
+- `npm run dev`
+
 ## Technologies Used
 
 **React, Vite, TypeScript, Paged.js, Tailwind CSS**
